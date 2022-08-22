@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/finishedShowsLl"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/finishedShowsAnimePicIv"
+            android:layout_width="100dp"
+            android:layout_height="125dp"
+            android:layout_gravity="start"
+            android:adjustViewBounds="true"
+            android:maxWidth="100dp"
+            android:maxHeight="125dp"
+            android:padding="7.5dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/_06843" />
+
+
+        <LinearLayout
+            android:id="@+id/finishedShowsAnimeShortDetailsLl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/finishedShowsAnimeTitleTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="World Trigger"
+                android:textAppearance="@style/matchlist_anime_name" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/finishedShowsRatingTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Rating:"
+                    android:textAppearance="@style/rating_genre_matchlist"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/finishedShowsShowRatingTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="PG-13"
+                    android:textAppearance="@style/rating_genre_matchlist" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/finishedShowsGenreTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Genres:"
+                    android:textAppearance="@style/rating_genre_matchlist"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/finishedShowsShowGenreTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Action, Sci-Fi, Supernatural"
+                    android:textAppearance="@style/rating_genre_matchlist" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/finishedShowsYourRatingTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Your Rating:"
+                    android:textAppearance="@style/rating_genre_matchlist"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/finishedShowsYourActualRatingTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="5 out of 5"
+                    android:textAppearance="@style/rating_genre_matchlist"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/emptyHome_line_4"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/finishedShowsLl"
+        app:srcCompat="@drawable/line_4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

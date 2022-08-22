@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1049066575066",
+    "project_id": "animatch-8e557",
+    "storage_bucket": "animatch-8e557.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049066575066:android:b62fbd35db17d91f9441e3",
+        "android_client_info": {
+          "package_name": "com.mobdeve.s15.group13.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049066575066-ghmp86rvm3jrf34419m1dqlonkq0jvi8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc0YEfwgkqdk9ktpU6hVYPvtVNPJndTHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049066575066-ghmp86rvm3jrf34419m1dqlonkq0jvi8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

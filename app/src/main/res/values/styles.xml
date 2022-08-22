@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="activity_heading_style">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.01
+        </item>
+
+        <item name="android:textColor">
+            #3F9EDF
+        </item>
+
+    </style>
+    <style name="nav_bar_button_style">
+
+        <item name="android:textSize">
+            10sp
+        </item>
+
+        <item name="android:textColor">
+            #A6A6A6
+        </item>
+
+    </style>
+    <style name="empty_stack_warning_style">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #A6A6A6
+        </item>
+
+    </style>
+    <style name="matchlist_anime_name">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #DE3F9EDF
+        </item>
+
+        <item name="android:fontFamily">
+            @font/roboto_medium
+        </item>
+
+    </style>
+    <style name="matchlist_view_anime_name">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #DE3F9EDF
+        </item>
+
+        <item name="android:fontFamily">
+            @font/roboto_medium
+        </item>
+
+    </style>
+
+    <style name="rating_genre_matchlist">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #8C8783
+        </item>
+
+        <item name="android:fontFamily">
+            @font/roboto_regular
+        </item>
+
+    </style>
+
+    <style name="roundedImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+
+
+    -
+
+
+
+
+    -<style name="ratings_style">
+
+    <item name="android:textSize">26sp </item>
+
+    <item name="android:letterSpacing"> -0.02 </item>
+
+    <item name="android:textColor">#3F9EDF </item>
+
+</style>
+
+
+    -<style name="shortdetails_anime_name">
+
+    <item name="android:textSize">20sp </item>
+
+    <item name="android:textColor">#DE3F9EDF </item>
+
+    <item name="android:fontFamily">@font/roboto_medium </item>
+
+</style>
+
+
+    -<style name="shortdetails_ratings_and_genre">
+    <item name="android:textSize">14sp </item>
+    <item name="android:textColor">#8C8783 </item>
+    </style>
+</resources>

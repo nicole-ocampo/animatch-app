@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mobdeve.s15.group13.project">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/animatch_icon2_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/animatch_icon2_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name="com.mobdeve.s15.group13.project.loginActivity" />
+        <activity android:name="com.mobdeve.s15.group13.project.registerActivity" />
+        <activity android:name="com.mobdeve.s15.group13.project.nextRegisterActivity" />
+        <activity android:name="com.mobdeve.s15.group13.project.matchingActivity" />
+        <activity android:name="com.mobdeve.s15.group13.project.accountActivity" />
+        <activity android:name="com.mobdeve.s15.group13.project.editAccountActivity" />
+        <activity android:name="com.mobdeve.s15.group13.project.matchesActivity" />
+        <activity android:name="com.mobdeve.s15.group13.project.matchesDetailsActivity" />
+        <activity android:name="com.mobdeve.s15.group13.project.finishedActivity" />
+        <activity android:name="com.mobdeve.s15.group13.project.finishedDetailsActivity" />
+        <activity android:name="com.mobdeve.s15.group13.project.ratingsActivity" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
