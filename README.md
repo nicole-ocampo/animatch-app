@@ -38,7 +38,6 @@ The following clip shows extra features regarding error handling when it comes t
 
 </br></br>
 
-
 # Links
 - [Database](https://console.firebase.google.com/u/2/project/animatch-8e557/firestore)
 
@@ -48,22 +47,5 @@ The following clip shows extra features regarding error handling when it comes t
 - [SwipeDeck](https://github.com/aaronbond/Swipe-Deck)
 
 # Authors
-MOBDEVE S15 Group 13
 - Ocampo, Andrea Nicole
 - Pioquinto, Cherrie Luz
-
-# Extra notes
-- RE: Version Control
-- We're really sorry sir but we did not utilise the version control feature of Android Studio/GitHub. We were not aware of this feature ahead of time, and we were simply passing the files through Google Drive using zipped folders, to keep track of the latest state of the project. Rest assured that we were both working on the project equally, as we were almost always doing the project at the same time on call. We also have timestamps of each version present in our shared Google Drive. <br/><br/>
-
-- RE: Slight Modification to Contract Specifications Features (Tapping instead of swiping up)
-- We also made a slight modification when it comes to viewing more information about an anime suggestion. Instead of swiping up to view the dialog box, we implemented this using a tapping fucntion instead. This is because the API we used did not have a function for a separate swipe up feature. What it had instead was a function call to physically swipe the card up. What we had in mind during the proposal was that the user could swipe up without physically moving the card to trigger this dialog box. But since the API was programmed to animate the card as well, this disrupts the user experience just for this feature. As a user, it may be more smooth flowing if the card was not animated to trigger this feature. </br>
-
-
-![6](https://user-images.githubusercontent.com/69026502/130556429-b73f75ec-e2c4-4ea8-a324-4475c66871d3.gif)
- <br/><br/>
- 
- - RE: Additional to Contract Specifications Features (Notes/Comments)
-- We added a feature that enables the user to add notes to every show they have finished watching. Similar to the rating feature, this is also optional if the user chooses not to add any notes. </br>
-
- <br/><br/>
